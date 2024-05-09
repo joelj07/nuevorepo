@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Podrás comprar tus entradas, pases de 1 día o 2</title>
+</head>
+<body>
+  <div class="logo-container" > 
+    <header>
+      <img src="./img/logo.png" alt_"logo-venezuela-festival" style="height: 50px;" class="logo">
+        <h1>Venezuela Festival</h1>
+    </header>
+  </div>     
+  <nav class="navegador"> 
+    <div class="navegador-links">  
+      <div class="navegador-link"><a href="./index.html">Inicio</a></div>
+      <div class="navegador-link"><a href="./lineup.html">Line Up</a></div>
+      <div class="navegador-link"><a href="./compra.html">Compra</a></div>
+  </div>
+  </nav>
+<main>
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card bg-dark"> 
+    <div class="card-body">
+        <h5 class="card-title">Pase 1 día</h5>
+          <p class="card-text">Vive la experiencia de 1 día.</p>
+            <a href="#" class="btn btn-success">$25.000ARS</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-6">
+    <div class="card bg-dark"> 
+    <div class="card-body">
+      <h5 class="card-title">Pase 3 días</h5>
+        <p class="card-text">Ahorrá comprando el pase de 3 días.</p>
+          <a href="#" class="btn btn-success">$40.000ARS</a>
+    </div>
+    </div>
+    </div>
+    </div>
+  </main>
+  <h5>
+    ¿Cómo llegar?
+  </h5>
+  <div class="mapa">
+    <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210356.7101588181!2d-58.627462313042194!3d-34.53269700561575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb040d363f587%3A0x78e513cecbc25f7f!2sHip%C3%B3dromo%20de%20San%20Isidro!5e0!3m2!1ses!2sar!4v1710015750970!5m2!1ses!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="contenedor-correo">
+    <header class="correo">
+      <ul role="list">
+        <li>
+          Por dudas sobre información general del evento, puedes mandarnos un mail a
+          <br> <span class="centrado" ><a href="venezuelafestival@gmail.com">venezuelafestival@gmail.com</a></span>
+        </li>
+      </ul>
+    </header>
+  </div>
+  <div>
+    <header>
+      <li>Déjanos tus datos y nos contactamos</li>
+    </header>
+    <div class="contenedor-tarjeta">
+      <div class="tarjeta">
+        <form action="procesar_formulario.php" method="post">
+          <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre">
+          <input type="email" name="email" id="email" placeholder="Ingrese email">
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div> 
+  
+
+  <footer class="footer2">
+    <div class="social-icons">
+      <a href="https://www.instagram.com"><i class="fab fa-instagram fa-3x"></i></a>
+      <a href="https://twitter.com"><i class="fab fa-twitter fa-3x"></i></a>
+      <a href="https://www.facebook.com"><i class="fab fa-facebook fa-3x"></i></a>
+    </div>
+      <p>Copyrigh© 2024. Joel Villegas.<br>Contacto: +54112346458</p>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
+</body>
+</html>

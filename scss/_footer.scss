@@ -1,0 +1,21 @@
+.footer2 {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+    text-align: center; /* Alinea el texto al centro */
+    padding: 20px 0; /* Añade un poco de padding para espaciar los elementos */
+
+    p {
+        margin-top: 10px; /* Espacio entre los íconos y el texto */
+      }
+  }
+  
+  .footer2 .social-icons a {
+    margin: 0 10px !important; /* Espacio horizontal entre los íconos */
+    color: white !important; /* Color del icono */
+  }
+  

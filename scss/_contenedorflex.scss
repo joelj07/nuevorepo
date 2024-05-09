@@ -1,0 +1,39 @@
+.contenedor-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .contenedor-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: auto;
+    height: auto;
+    background-color: #333333;
+    margin: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    border: solid;
+
+    p {
+        color: white;
+        font-family: cursive;
+        font-size: large;
+        font-weight: bolder;
+      }
+
+      img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        font: bold;
+        -o-object-fit: cover;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+  }
+  
